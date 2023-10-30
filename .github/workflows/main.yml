@@ -19,7 +19,7 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v4.1.1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          version-file: setup.toml
+          version-file: pyproject.toml
 
       - name: Publish package
         uses: pypa/gh-action-pypi-publish@v1.8.9
