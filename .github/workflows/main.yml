@@ -1,0 +1,25 @@
+name: Publish to PyPi
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/project/mattsollamatools/
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Conventional Changelog
+        id: changelog
+        uses: TriPSs/conventional-changelog-action@v4.1.1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          version-file: setup.cfg
+
+      - name: Publish package
+        uses: pypa/gh-action-pypi-publish@1.8.10
