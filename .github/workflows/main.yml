@@ -11,6 +11,7 @@ jobs:
       url: https://pypi.org/project/mattsollamatools/
     permissions:
       id-token: write
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - name: Conventional Changelog
