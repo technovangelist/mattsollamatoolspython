@@ -3,7 +3,6 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 def chunker(text, max_words_per_chunk=100):
   """
   Splits the input text into overlapping chunks of words up to the max per chunk
-
   Returns:
     list of chunks which are strings
   """
