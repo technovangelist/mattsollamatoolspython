@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.1.1...v0.1.2) (2023-10-30)
+
+
+### Bug Fixes
+
+* asht ([79344d7](https://github.com/technovangelist/mattsollamatoolspython/commit/79344d7bbc8668f46090222bc9e9954896275f25))
+
+
+
 ## [0.1.1](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.1.0...v0.1.1) (2023-10-30)
 
 
