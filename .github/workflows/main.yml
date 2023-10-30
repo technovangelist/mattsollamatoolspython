@@ -20,8 +20,8 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           version-file: "./pyproject.toml"
-
+          version-path: "project.version"
+      
       - name: Publish package
         uses: pypa/gh-action-pypi-publish@v1.8.9
-        with:
-          password: ${{ secrets.PYPI_API_TOKEN}}
+        
