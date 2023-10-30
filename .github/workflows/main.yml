@@ -22,4 +22,4 @@ jobs:
           version-file: setup.cfg
 
       - name: Publish package
-        uses: pypa/gh-action-pypi-publish@1.8.10
+        uses: pypa/gh-action-pypi-publish@1.8.9
