@@ -1,3 +1,12 @@
+## [0.0.16](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.0.15...v0.0.16) (2023-10-30)
+
+
+### Bug Fixes
+
+* why cant they just document it ([dce126a](https://github.com/technovangelist/mattsollamatoolspython/commit/dce126ab6fd4ca73a3a3cac40b2b87d055d5195a))
+
+
+
 ## [0.0.15](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.0.14...v0.0.15) (2023-10-30)
 
 
