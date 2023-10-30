@@ -1,4 +1,13 @@
-# 0.1.0 (2023-10-30)
+## [0.1.1](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.1.0...v0.1.1) (2023-10-30)
+
+
+### Bug Fixes
+
+* finally ([3d7e939](https://github.com/technovangelist/mattsollamatoolspython/commit/3d7e9398e012945a1ef77f4c2849eaa5cb7fc99f))
+
+
+
+# [0.1.0](https://github.com/technovangelist/mattsollamatoolspython/compare/8c7b2830fc70cea38d174c2f4e4aeed2f78b894c...v0.1.0) (2023-10-30)
 
 
 ### Bug Fixes
