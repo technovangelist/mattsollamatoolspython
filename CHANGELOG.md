@@ -1,3 +1,12 @@
+## [0.0.20](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.0.16...v0.0.20) (2024-04-03)
+
+
+### Bug Fixes
+
+* init doesn't mention chunk by sentence ([7a4326d](https://github.com/technovangelist/mattsollamatoolspython/commit/7a4326d9644350427c53e796ea27f217b1a1fc4c))
+
+
+
 ## [0.0.16](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.0.15...v0.0.16) (2023-10-30)
 
 
