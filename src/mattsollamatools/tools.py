@@ -12,6 +12,7 @@ def chunker(text, max_words_per_chunk=100):
   current_chunk = []
 
   for sentence in sentences:
+    
       words = word_tokenize(sentence)
 
       if len(current_chunk) + len(words) <= max_words_per_chunk:
@@ -36,6 +37,9 @@ def chunker(text, max_words_per_chunk=100):
 from typing import List
 
 def chunk_text_by_sentences(source_text: str, sentences_per_chunk: int, overlap: int) -> List[str]:
+    """
+    Splits text by sentences
+    """
     if sentences_per_chunk < 2:
         raise ValueError("The number of sentences per chunk must be 2 or more.")
     if overlap < 0 or overlap >= sentences_per_chunk - 1:

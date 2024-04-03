@@ -14,6 +14,13 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      - name: Conventional Changelog
+        id: changelog
+        uses: TriPSs/conventional-changelog-action@v4.1.1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          version-file: "./pyproject.toml"
+          version-path: "project.version"
       - name: Set up Python 3
         uses: actions/setup-python@v2
         with:
@@ -23,13 +30,6 @@ jobs:
           python -m pip install --upgrade pip
           # pip install -r requirements.txt
           pip install build
-      - name: Conventional Changelog
-        id: changelog
-        uses: TriPSs/conventional-changelog-action@v4.1.1
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          version-file: "./pyproject.toml"
-          version-path: "project.version"
       - run: python -m build
       - name: Publish package
         uses: pypa/gh-action-pypi-publish@v1.8.9
