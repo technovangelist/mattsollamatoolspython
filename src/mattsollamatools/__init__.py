@@ -1,1 +1,1 @@
-from .tools import chunker
+from .tools import chunker, chunk_text_by_sentences
