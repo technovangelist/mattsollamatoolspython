@@ -52,6 +52,7 @@ def chunk_text_by_sentences(source_text: str, sentences_per_chunk: int, overlap:
     
     chunks = []
     i = 0
+    print(len(sentences))
     while i < len(sentences):
         end = min(i + sentences_per_chunk, len(sentences))
         chunk = ' '.join(sentences[i:end])
