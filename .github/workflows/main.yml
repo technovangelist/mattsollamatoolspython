@@ -13,7 +13,6 @@ jobs:
       id-token: write
       contents: write
     steps:
-      - uses: actions/checkout@v4
       - name: Conventional Changelog
         id: changelog
         uses: TriPSs/conventional-changelog-action@v4.1.1
@@ -21,6 +20,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           version-file: "./pyproject.toml"
           version-path: "project.version"
+      - uses: actions/checkout@v4
       - name: Set up Python 3
         uses: actions/setup-python@v2
         with:
