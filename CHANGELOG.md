@@ -1,3 +1,12 @@
+## [0.0.25](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.0.24...v0.0.25) (2024-04-12)
+
+
+### Bug Fixes
+
+* doh ([e8e2016](https://github.com/technovangelist/mattsollamatoolspython/commit/e8e2016a954903b055057f30e43b551459d3c6a3))
+
+
+
 ## [0.0.24](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.0.23...v0.0.24) (2024-04-12)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * update ([ef24b42](https://github.com/technovangelist/mattsollamatoolspython/commit/ef24b4288f9939bdfc8b8d2ba7ae6e9e3a35aa98))
-
-
-
-## [0.0.20](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.0.16...v0.0.20) (2024-04-03)
-
-
-### Bug Fixes
-
-* init doesn't mention chunk by sentence ([7a4326d](https://github.com/technovangelist/mattsollamatoolspython/commit/7a4326d9644350427c53e796ea27f217b1a1fc4c))
 
 
 
