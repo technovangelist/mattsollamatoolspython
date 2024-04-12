@@ -1,19 +1,19 @@
 from nltk.tokenize import sent_tokenize, word_tokenize
 
-def chunker(text, max_words_per_chunk=100):
+def chunker(text, max_words_per_chunk=100, language="english"):
   """
   Splits the input text into overlapping chunks of words up to the max per chunk
   Returns:
     list of chunks which are strings
   """
 
-  sentences = sent_tokenize(text)
+  sentences = sent_tokenize(text, language=language)
   chunks = []
   current_chunk = []
 
   for sentence in sentences:
     
-      words = word_tokenize(sentence)
+      words = word_tokenize(sentence, language=language)
 
       if len(current_chunk) + len(words) <= max_words_per_chunk:
           current_chunk.extend(words)
@@ -36,7 +36,7 @@ def chunker(text, max_words_per_chunk=100):
 
 from typing import List
 
-def chunk_text_by_sentences(source_text: str, sentences_per_chunk: int, overlap: int) -> List[str]:
+def chunk_text_by_sentences(source_text: str, sentences_per_chunk: int, overlap: int, language="english") -> List[str]:
     """
     Splits text by sentences
     """
@@ -45,7 +45,7 @@ def chunk_text_by_sentences(source_text: str, sentences_per_chunk: int, overlap:
     if overlap < 0 or overlap >= sentences_per_chunk - 1:
         raise ValueError("Overlap must be 0 or more and less than the number of sentences per chunk.")
     
-    sentences = sent_tokenize(source_text)
+    sentences = sent_tokenize(source_text, language=language)
     if not sentences:
         print("Nothing to chunk")
         return []
