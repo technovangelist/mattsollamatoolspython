@@ -1,3 +1,13 @@
+## [0.0.23](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.0.22...v0.0.23) (2024-04-12)
+
+
+### Bug Fixes
+
+* trying to get action to work ([2e655e2](https://github.com/technovangelist/mattsollamatoolspython/commit/2e655e24df1802783b9416a3a565e64fc321aa60))
+* update action ([0fc9156](https://github.com/technovangelist/mattsollamatoolspython/commit/0fc9156e7ca58563d2e7e496a6afebc5adc80a35))
+
+
+
 ## [0.0.22](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.0.21...v0.0.22) (2024-04-12)
 
 
@@ -31,15 +41,6 @@
 ### Bug Fixes
 
 * why cant they just document it ([dce126a](https://github.com/technovangelist/mattsollamatoolspython/commit/dce126ab6fd4ca73a3a3cac40b2b87d055d5195a))
-
-
-
-## [0.0.15](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.0.14...v0.0.15) (2023-10-30)
-
-
-### Bug Fixes
-
-* now? ([3e65d30](https://github.com/technovangelist/mattsollamatoolspython/commit/3e65d3091e9a1a64740e62dd256575710732e37b))
 
 
 
