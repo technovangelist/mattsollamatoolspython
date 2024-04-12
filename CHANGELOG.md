@@ -1,3 +1,12 @@
+## [0.0.22](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.0.21...v0.0.22) (2024-04-12)
+
+
+### Bug Fixes
+
+* fix the readme ([83e69f8](https://github.com/technovangelist/mattsollamatoolspython/commit/83e69f80794ca26e31d891a8ede3a6cd93e7e092))
+
+
+
 ## [0.0.21](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.0.20...v0.0.21) (2024-04-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * now? ([3e65d30](https://github.com/technovangelist/mattsollamatoolspython/commit/3e65d3091e9a1a64740e62dd256575710732e37b))
-
-
-
-## [0.0.14](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.0.13...v0.0.14) (2023-10-30)
-
-
-### Bug Fixes
-
-* finally building? ([4be2ce6](https://github.com/technovangelist/mattsollamatoolspython/commit/4be2ce60d695a4d0bf2c13a470f7baaf83fa6e61))
 
 
 
