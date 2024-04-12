@@ -13,6 +13,7 @@ jobs:
       id-token: write
       contents: write
     steps:
+      - uses: actions/checkout@v4
       - name: Conventional Changelog
         id: changelog
         uses: TriPSs/conventional-changelog-action@v4.1.1
