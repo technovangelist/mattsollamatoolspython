@@ -11,7 +11,7 @@ Sometimes you need to take a bunch of text in and then spit it out in an array o
 ```python
 from mattsollamatools import chunker
 
-textchunks = chunker(text, max_words_per_chunk=110)
+textchunks = chunker(text, max_words_per_chunk=110, language='spanish')
 ```
 
-If you don't include max_words_per_chunk, it will default to 100.
+If you don't include max_words_per_chunk, it will default to 100. If you don't include language, it will default to 'english'.
