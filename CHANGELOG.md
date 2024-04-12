@@ -1,3 +1,12 @@
+## [0.0.24](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.0.23...v0.0.24) (2024-04-12)
+
+
+### Bug Fixes
+
+* trying agin ([b5ab596](https://github.com/technovangelist/mattsollamatoolspython/commit/b5ab596a23930e87cbe4398062d136d77fc21469))
+
+
+
 ## [0.0.23](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.0.22...v0.0.23) (2024-04-12)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * init doesn't mention chunk by sentence ([7a4326d](https://github.com/technovangelist/mattsollamatoolspython/commit/7a4326d9644350427c53e796ea27f217b1a1fc4c))
-
-
-
-## [0.0.16](https://github.com/technovangelist/mattsollamatoolspython/compare/v0.0.15...v0.0.16) (2023-10-30)
-
-
-### Bug Fixes
-
-* why cant they just document it ([dce126a](https://github.com/technovangelist/mattsollamatoolspython/commit/dce126ab6fd4ca73a3a3cac40b2b87d055d5195a))
 
 
 
